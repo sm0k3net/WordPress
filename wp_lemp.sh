@@ -275,6 +275,7 @@ EOL
         ;;
 esac
 
+unlink /etc/nginx/sites-enabled/default
 php5enmod mcrypt
 service php5-fpm restart
 
