@@ -14,7 +14,7 @@ NC='\033[0m' # No Color
 
 
 #Welcome message
-apt-get update && apt-get upgrade
+apt-get update && apt-get upgrade -y
 clear
 echo -e "Welcome to WordPress & LAMP stack installation and configuration wizard!
 First of all, we going to check all required packeges..."
