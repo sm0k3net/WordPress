@@ -567,6 +567,7 @@ EOL
 
 a2dismod status
 a2enmod rewrite
+a2enmod ssl
 
 echo -e "${GREEN}Configuration of apache mods was succesfully finished!
 Restarting Apache & MySQL services...${NC}"
