@@ -566,6 +566,7 @@ cat > /etc/apache2/mods-available/mpm_worker.conf <<EOL
 EOL
 
 a2dismod status
+a2enmod rewrite
 
 echo -e "${GREEN}Configuration of apache mods was succesfully finished!
 Restarting Apache & MySQL services...${NC}"
